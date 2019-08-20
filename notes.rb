@@ -31,7 +31,7 @@ pigeon_data.each do |key, value|
         p new_hash[bird_name][key] = []
       end
       
-      
+      new_hash[bird_name][key]
     end
   end
 end

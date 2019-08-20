@@ -40,4 +40,4 @@ def nyc_pigeon_organizer(data)
 end
 
 
-p pigeon_data
+p nyc_pigeon_organizer(pigeon_data)

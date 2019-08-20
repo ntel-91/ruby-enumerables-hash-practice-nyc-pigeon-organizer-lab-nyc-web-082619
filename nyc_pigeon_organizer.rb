@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         if !new_hash[bird_name]
           new_hash[bird_name] = {}
         end
-     
+      
         if !new_hash[bird_name][key]
           new_hash[bird_name][key] = []
         end

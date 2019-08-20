@@ -17,12 +17,15 @@ pigeon_data = {
   }
 }
 
+new_hash = {}
 pigeon_data.each do |key, value|
   value.each do |desc, names|
     names.each do |bird_name|
       bird_name
     
-      if  
+      if !new_hash[bird_name]
+        p new_hash = bird_name
+      end
     
     end
   end

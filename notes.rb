@@ -30,6 +30,8 @@ pigeon_data.each do |key, value|
       if !new_hash[bird_name][key]
         p new_hash[bird_name][key] = []
       end
+      
+      
     end
   end
 end
